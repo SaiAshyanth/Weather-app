@@ -1,0 +1,173 @@
+/* .App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+} */
+/* body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.App {
+  text-align: center;
+  padding-top: 50px;
+}
+
+.Title {
+  margin-bottom: 30px;
+}
+
+.input-container {
+  margin-bottom: 20px;
+}
+
+.input {
+  padding: 10px;
+  width: 200px;
+  margin-right: 10px;
+}
+
+.button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+.container {
+  background-color: rgba(255, 255, 255, 0.8);
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin: 0 auto;
+  max-width: 400px;
+}
+
+.container h2 {
+  margin-bottom: 10px;
+}
+
+.container p {
+  margin: 5px 0;
+}
+
+
+.container.sunny {
+  background-image: url('sunny.jpg');
+}
+
+.container.cloudy {
+  background-image: url('cloudy.jpg');
+}
+
+.container.rainy {
+  background-image: url('rainy.jpg');
+}
+
+.container.snowy {
+  background-image: url('snowy.jpg');
+}
+
+.container.default {
+  background-image: url('default.jpg');
+} */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background-image: url('weatherapp1.jpeg'); /* Replace 'weatherapp1.jpeg' with your actual background image */
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+h3{
+  font-family: 'Times New Roman', Times, serif;
+  color: #252121;
+}
+.container {
+  background-color: rgba(255, 255, 255, 0.3); /* Opacity value can be adjusted as needed */
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  max-width: 400px;
+}
+
+.Title {
+  text-align: center;
+  color: #fff; /* Title color */
+  font-size: 500%;
+  font-family: 'Times New Roman', Times, serif;
+  margin-top: 80px;
+  margin-bottom: 30px;
+}
+
+.input-container {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.input {
+  padding: 10px;
+  width: 200px;
+  margin-right: 10px;
+}
+
+.button {
+  padding: 10px 20px;
+  background-color: #007bff; /* Button color */
+  color: #fff; /* Button text color */
+  border: none;
+  cursor: pointer;
+  display: block;
+  margin: 40px auto 0;
+}
+
+.container h2 {
+  margin-bottom: 10px;
+}
+
+.container p {
+  margin: 5px 0;
+  color: #f8f8f8; /* Text color */
+}
